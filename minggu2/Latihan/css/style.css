@@ -1,0 +1,53 @@
+h1 {
+  font-weight: 700;
+  text-decoration: underline;
+  color: brown;
+}
+
+p {
+  font-size: 15px;
+  background-color: aqua;
+}
+
+span {
+  color: blueviolet;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  box-shadow: 10px 13px 0 -1px rgba(2, 2, 74, 0.6);
+}
+#judul1 {
+  font-weight: 800;
+  color: rgb(44, 31, 31);
+  text-decoration: underline;
+}
+#judul2 {
+  font-weight: 800;
+  color: blue;
+}
+.content {
+  background-color: aquamarine;
+}
+
+.box {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+}
+.box a {
+  color: black;
+  font-size: 30px;
+}
+
+.box:haver {
+  background-color: aqua;
+}
+
+.box a:hover {
+  color: blue;
+}
+.box:hover > a {
+  color: aqua;
+}

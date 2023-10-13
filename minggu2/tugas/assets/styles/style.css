@@ -1,0 +1,125 @@
+:root {
+  color: bisque grey;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  margin-inline: 100px;
+}
+nav {
+  background-color: gray;
+  color: black;
+  padding-block: 18px;
+  position: fixed;
+  width: 100%;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  margin-inline: 10px;
+  font-size: 17px;
+}
+
+#home {
+  background-color: bisque;
+  text-align: center;
+  padding-block: 100px;
+  padding-top: 150px;
+}
+
+#home img {
+  width: 200px;
+}
+
+#home h1 {
+  font-size: 40px;
+  margin-block: 10px;
+}
+
+#home h4 {
+  font-size: 20px;
+}
+
+section {
+  padding-block: 30px;
+}
+.title {
+  font-size: 35px;
+  text-align: center;
+  margin-block: 45px;
+}
+
+#member h1 {
+  font-size: 30px;
+  margin-block: 30px;
+  text-align: center;
+}
+
+#member ul h3 {
+  margin-block: 15px;
+}
+
+.sosmed .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sosmed .box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+}
+
+.sosmed .box:hover {
+  background-color: gray;
+}
+
+.sosmed img {
+  width: 40px;
+}
+section {
+  padding-block: 30px;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  margin-block: 45px;
+}
+#about {
+  background-color: bisque;
+}
+#about p {
+  font-size: 20px;
+  text-align: center;
+  padding-inline: 200px;
+}
+
+footer {
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+}
