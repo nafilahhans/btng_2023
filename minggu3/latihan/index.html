@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Bootstrape</title>
+
+    <!-- CSS Bootstrape  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container border-dark"></div>
+    <div class="p-5 m-2 bg-info">Annyeong</div>
+
+    <!-- text alignment + color + Font Size-->
+    <h1 class="text-start text-danger fs-2 fw-bold">Annyeong</h1>
+    <h1 class="text-center text-secondary fs-3 fst-italic">Annyeong</h1>
+    <h1 class="text-end text-warning fs-4 fw-semibold">Annyeong</h1>
+
+    <!-- flexbox -->
+
+    <div
+      class="box p-3 bg-danger text-light fw-bold border border-dark border-start-0"
+    >
+      Box 1
+    </div>
+    <div
+      class="box p-3 bg-warning text-success fw-bold border border-dark border-start-0"
+    >
+      Box 2
+    </div>
+    <div class="box p-3 bg-info text-primary fw-bold">Box 3</div>
+    <br />
+
+    <div class="d-flex">
+      <div
+        class="box p-3 bg-danger text-light fw-bold border border-dark border-start-4 border-4"
+      >
+        Box 1
+      </div>
+      <div
+        class="box p-3 bg-warning text-success fw-bold border border-dark border-start-0 border-4"
+      >
+        Box 2
+      </div>
+      <div class="box p-3 bg-info text-primary fw-bold">Box 3</div>
+    </div>
+    <br />
+
+    <div class="d-flex flex-row-reverse">
+      <div class="box p-3 bg-danger text-light fw-bold rounded">Box 1</div>
+      <div class="box p-3 bg-warning text-success fw-bold">Box 2</div>
+      <div class="box p-3 bg-info text-primary fw-bold">Box 3</div>
+    </div>
+    <br />
+
+    <div class="d-flex justify-content-between">
+      <div class="box p-3 bg-danger text-light fw-bold rounded rounded-4">
+        Box 1
+      </div>
+      <div class="box p-3 bg-warning text-success fw-bold rounded-circle">
+        Box 2
+      </div>
+      <div class="box p-3 bg-info text-primary fw-bold">Box 3</div>
+    </div>
+    <br />
+
+    <div class="d-flex justify-content-around">
+      <div class="box p-3 bg-danger text-light fw-bold">Box 1</div>
+      <div class="box p-3 bg-warning text-success fw-bold">Box 2</div>
+      <div class="box p-3 bg-info text-primary fw-bold">Box 3</div>
+    </div>
+    <br />
+
+    <!-- Layout -->
+
+    <div class="row">
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-6 bg-success text-light">col 6</div>
+      <div class="col-6 bg-success text-light">col 6</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-4 bg-success text-light">col 4</div>
+      <div class="col-4 bg-primary text-light">col 4</div>
+      <div class="col-4 bg-info text-light">col 4</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-8 bg-secondary text-light">col 8</div>
+      <div class="col-4 bg-success text-light">col 4</div>
+    </div>
+    <br />
+
+    <!-- Latihan Layout -->
+
+    <div class="row">
+      <div class="col-12 bg-primary text-light">
+        <h1 class="text-center">Judul Halaman (col 12)</h1>
+      </div>
+      <div class="col-4 bg-secondary text-secondary text-light text-center">
+        <p>Sidebar (col 4)</p>
+        <ul>
+          <li>Menu 1</li>
+          <li>Menu 2</li>
+          <li>menu 3</li>
+        </ul>
+      </div>
+      <div class="col-8 bg-info text-light text-center-">
+        <p>Content (col-8)</p>
+        <div class="row gap-3 d-flex">
+          <div class="col-2 bg-danger">
+            <p>CArd 1</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+            quos dolorum architecto accusamus neque obcaecati veniam soluta nisi
+            numquam ad est rem labore, corporis ex doloremque tempora sunt cum
+            ipsa.
+          </div>
+          <div class="col-2 bg-warning">
+            <p>CArd 2</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+            quos dolorum architecto accusamus neque obcaecati veniam soluta nisi
+            numquam ad est rem labore, corporis ex doloremque tempora sunt cum
+            ipsa.
+          </div>
+          <div class="col-2 bg-success">
+            <p>CArd 3</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+            quos dolorum architecto accusamus neque obcaecati veniam soluta nisi
+            numquam ad est rem labore, corporis ex doloremque tempora sunt cum
+            ipsa.
+          </div>
+          <div class="col-2 bg-primary">
+            <p>CArd</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+            quos dolorum architecto accusamus neque obcaecati veniam soluta nisi
+            numquam ad est rem labore, corporis ex doloremque tempora sunt cum
+            ipsa.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 bg-primary">
+      <p>Footer</p>
+    </div>
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
